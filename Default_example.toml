@@ -1,0 +1,6 @@
+[dag]
+folder="./tests/data/sql"
+name="some_dag"
+
+[log]
+level="debug"
