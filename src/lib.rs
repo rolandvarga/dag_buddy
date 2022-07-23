@@ -152,7 +152,7 @@ fn ui<B: Backend>(f: &mut Frame<B>, app: &mut App) {
         .split(f.size());
 
     let selected_style = Style::default().add_modifier(Modifier::REVERSED);
-    let normal_style = Style::default().bg(Color::Blue);
+    let normal_style = Style::default().bg(Color::Green);
     let header_cells = ["FILE_NAME", "TABLES"]
         .iter()
         .map(|h| Cell::from(*h).style(Style::default().fg(Color::Red)));
